@@ -1,0 +1,5 @@
+{
+  "name": "KISAN AI - धान की सलाह",
+  "description": "AI-Based Crop Recommendation & Disease Detection for Indian Farmers with multi-language and voice support.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}
