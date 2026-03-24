@@ -33,7 +33,7 @@ import { WeatherWidget } from './components/WeatherWidget';
 import { VoiceInput } from './components/VoiceInput';
 import { cn } from './lib/utils';
 
-import { predictCrop, checkSuitability, detectDisease, chatWithGemini } from './services/gemini';
+import { predictCrop, checkSuitability, detectDisease, chatWithGemini } from '../api/gemini';
 
 type Tab = 'home' | 'dashboard' | 'disease' | 'suitability' | 'chat';
 
