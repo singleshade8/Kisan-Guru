@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ 
-  apiKey: import.meta.env.VITE_GEMINI_API_KEY 
+  apiKey: process.env.GEMINI_API_KEY
 });
 
   export const predictCrop = async (soil: string, temp: number, humidity: number, rainfall: number, lang: string) => {
